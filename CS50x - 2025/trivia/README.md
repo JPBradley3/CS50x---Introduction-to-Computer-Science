@@ -10,7 +10,7 @@ This project is a simple interactive trivia quiz implemented as a web page using
 
 - **Multiple Choice Questions:**
 
-The quiz includes multiple choice questions with clickable answer buttons. Selecting an answer disables all options for that question and provides feedback by changing button colors (green for correct, red for incorrect) and displaying a "Correct!" or "Incorrect" message.
+-- The quiz includes multiple choice questions with clickable answer buttons. Selecting an answer disables all options for that question and provides feedback by changing button colors (green for correct, red for incorrect) and displaying a "Correct!" or "Incorrect" message.
 
 - **Free Response Question:**
 
