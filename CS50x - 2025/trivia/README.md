@@ -8,21 +8,24 @@ This project is a simple interactive trivia quiz implemented as a web page using
 
 ## Features
 
-- **Multiple Choice Questions:**
+- **Multiple Choice Questions:**  
+  - The quiz includes multiple choice questions with clickable answer buttons.  
+  - Selecting an answer disables all options for that question.  
+  - Provides feedback by changing button colors (green for correct, red for incorrect).  
+  - Displays a "Correct!" or "Incorrect" message.
 
--- The quiz includes multiple choice questions with clickable answer buttons. Selecting an answer disables all options for that question and provides feedback by changing button colors (green for correct, red for incorrect) and displaying a "Correct!" or "Incorrect" message.
+- **Free Response Question:**  
+  - Includes a free text input where users can type their answer.  
+  - Users click a "Check Answer" button to evaluate their response.  
+  - Input is evaluated case-insensitively and ignores leading/trailing whitespace.
 
-- **Free Response Question:**
+- **Immediate Feedback:**  
+  - Both multiple choice and free response questions provide instant visual feedback.  
+  - Uses colors and text to indicate correctness.
 
-Includes a free text input where users can type their answer and click a "Check Answer" button. The input is evaluated case-insensitively and ignores leading/trailing whitespace.
-
-- **Immediate Feedback:**
-
-Both multiple choice and free response questions provide instant visual feedback using colors and text to indicate correctness.
-
-- **Accessibility:**
-
-Buttons are disabled once an answer is selected to prevent changing answers after submission.
+- **Accessibility:**  
+  - Buttons are disabled once an answer is selected.  
+  - Prevents changing answers after submission.
 
 ## Implementation Details
 
