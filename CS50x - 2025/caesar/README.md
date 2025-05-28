@@ -13,23 +13,23 @@ The program expects a single command-line argument `key`, which must be a positi
 
 To compile:
 
-\begin{lstlisting}[language=bash]
+```
 gcc -o caesar caesar.c -lcs50
-\end{lstlisting}
+```
 
 To run:
 
-\begin{lstlisting}[language=bash]
+```
 ./caesar key
-\end{lstlisting}
+```
 
 For example, to encrypt with a key of 1:
 
-\begin{lstlisting}[language=bash]
+```
 ./caesar 1
 plaintext: Hello, World!
 ciphertext: Ifmmp, Xpsme!
-\end{lstlisting}
+```
 
 ## Details
 
@@ -49,11 +49,11 @@ ciphertext: Ifmmp, Xpsme!
 
 ## Example Output
 
-\begin{lstlisting}
+```
 $ ./caesar 13
 plaintext: Hello, CS50!
 ciphertext: Uryyb, PF50!
-\end{lstlisting}
+```
 
 ## License
 
