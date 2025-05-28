@@ -54,9 +54,7 @@ A plain text file containing a single DNA sequence (e.g., ACTGAGATAGATAGATAATG..
 
 ## Functions
 
-\begin{description}
-\item[`longest_match(sequence, subsequence)`] Returns the longest run of `subsequence` in `sequence`.
-\end{description}
+- **`longest_match(sequence, subsequence)`**: Returns the longest run of `subsequence` in `sequence`.
 
 ## Dependencies
 
