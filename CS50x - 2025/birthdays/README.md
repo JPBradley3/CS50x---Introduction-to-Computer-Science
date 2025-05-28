@@ -1,10 +1,5 @@
 # Birthday Reminder Flask App
 
-**
-
-**
-
-\geometry{margin=1in}
 
 ## Overview
 
@@ -138,7 +133,5 @@ birthday-reminder/
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-\vspace{1em}
 
 Feel free to open issues or submit pull requests for improvements!
